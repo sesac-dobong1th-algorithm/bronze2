@@ -63,10 +63,8 @@ for i in range(num_cases):
     tf_list.append(output_num_8)
 
     #10진수로 해석
-    try:
-        tf_list.append(int  (input_num))
-    except ValueError:
-        tf_list.append(0)
+    tf_list.append(int(input_num))
+
 
     #16진수로 해석
     for j in range(len(input_num)):
